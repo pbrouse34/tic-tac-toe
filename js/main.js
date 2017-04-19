@@ -292,10 +292,14 @@ else if(a[2]==null && a[4]==player && a[6]==player){
   move = 3; 
   return true;
 }
-
-
-
-
+else if(a[0]==player && a[8]==player && a[2]==null){
+  move = 3;
+  return true;
+}
+else if(a[2]==player && a[6]==player && a[0]==null){
+  move = 1;
+  return true;
+}
 }
 
 function nextWins(){
