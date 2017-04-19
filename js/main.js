@@ -292,6 +292,14 @@ else if(a[2]==null && a[4]==player && a[6]==player){
   move = 3; 
   return true;
 }
+  else if(a[0]==player && a[8]==player && a[5]==null){
+  move = 6;
+  return true;
+}
+else if(a[2]==player && a[6]==player && a[3]==null){
+  move = 4;
+  return true;
+}
 
 }
 
