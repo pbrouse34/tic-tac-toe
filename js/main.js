@@ -292,11 +292,19 @@ else if(a[2]==null && a[4]==player && a[6]==player){
   move = 3; 
   return true;
 }
-else if(a[0]==player && a[8]==player && a[2]==null){
+else if(a[0]==player && a[4]==computer && a[8]==null){
+  move = 9;
+  return true;
+}
+else if(a[2]==player && a[4]==computer && a[6]==null){
+  move = 7;
+  return true;
+}
+else if(a[6]==player && a[4]==computer && a[2]==null){
   move = 3;
   return true;
 }
-else if(a[2]==player && a[6]==player && a[0]==null){
+else if(a[8]==player && a[4]==computer && a[0]==null){
   move = 1;
   return true;
 }
