@@ -320,6 +320,10 @@ else if(a[0] == player && a[7] == player && a[6]==null){
   move = 7;
   return true;
 }
+  else if(a[4]==player && a[0]==computer && a[8]==player && a[2]==null){
+  move=3;
+  return true;
+}
 
 
 
