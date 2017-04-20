@@ -1,6 +1,7 @@
 body{
-  
-  background-color: #007fff;
+  background: linear-gradient(#007fff, #ffffff);
+  background-repeat: no-repeat;
+    background-attachment: fixed;
   height: 100%;
   margin: 0;
 }
