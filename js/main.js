@@ -192,6 +192,10 @@ function checkBlock(){
    move =5;
    return true;
  }
+  else if(move_count==1 && a[4]==player){
+     move=1;
+     return true;    
+ }
  else if(a[0]== player && a[1] == player && a[2]==null){
   move = 3;
   return true;
